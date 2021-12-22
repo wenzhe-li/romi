@@ -5,7 +5,10 @@ This repository is the implementation of the paper [Offline Reinforcement Learni
 ## Setup the environment
 
 ```
+conda create -n romi python=3.6.5
 pip install -r environment/requirements.txt
+pip install -e ./mopo
+pip install -e ./CQL/d4rl
 ```
 
 To run the code, you can configure the environment in bash examples in `bash/`. Before running the code, set current directory as PYTHONPATH in examples.
